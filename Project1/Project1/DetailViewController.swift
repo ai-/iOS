@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class DetailViewController: UIViewController {
 
@@ -32,6 +33,20 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        navigationItem.rightBarButtonItems = [UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "shareTapped"), UIBarButtonItem(barButtonSystemItem: .Organize, target: self, action: "shareFB")]
+    }
+    
+    func shareTapped() {
+        let vc = UIActivityViewController(activityItems: [detailImageView.image!], applicationActivities: [])
+        presentViewController(vc, animated: true, completion: nil)
+    }
+    
+    func shareFB() {
+        let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+        vc.setInitialText("Look at this great picture!")
+        vc.addImage(detailImageView.image!)
+        vc.addURL(NSURL(string: "http://www.photolib.noaa.gov/nssl"))
+        presentViewController(vc, animated: true, completion: nil)
     }
     
     override func viewWillAppear(animated: Bool) {
