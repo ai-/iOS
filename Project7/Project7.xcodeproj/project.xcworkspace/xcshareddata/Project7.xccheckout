@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3D1E3615-1529-4F3B-BF3A-A856B99C3080</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Project7</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1B51A3B3302F9A826FA5F1E99C3AEED05C05B350</key>
 		<string>https://github.com/ai-/ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Project7/Project7.xcodeproj/project.xcworkspace</string>
+	<string>Project7/Project7.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1B51A3B3302F9A826FA5F1E99C3AEED05C05B350</key>
