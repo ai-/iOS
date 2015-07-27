@@ -13,6 +13,8 @@
 		892C0E361B6648F400CD52AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892C0E351B6648F400CD52AA /* Images.xcassets */; };
 		892C0E391B6648F400CD52AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 892C0E371B6648F400CD52AA /* LaunchScreen.xib */; };
 		892C0E451B6648F400CD52AA /* Project10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C0E441B6648F400CD52AA /* Project10Tests.swift */; };
+		892C0E4F1B664E7800CD52AA /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C0E4E1B664E7800CD52AA /* PersonCell.swift */; };
+		892C0E511B6658E100CD52AA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C0E501B6658E100CD52AA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		892C0E3E1B6648F400CD52AA /* Project10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		892C0E431B6648F400CD52AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892C0E441B6648F400CD52AA /* Project10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10Tests.swift; sourceTree = "<group>"; };
+		892C0E4E1B664E7800CD52AA /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		892C0E501B6658E100CD52AA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				892C0E351B6648F400CD52AA /* Images.xcassets */,
 				892C0E371B6648F400CD52AA /* LaunchScreen.xib */,
 				892C0E2C1B6648F400CD52AA /* Supporting Files */,
+				892C0E4E1B664E7800CD52AA /* PersonCell.swift */,
+				892C0E501B6658E100CD52AA /* Person.swift */,
 			);
 			path = Project10;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892C0E4F1B664E7800CD52AA /* PersonCell.swift in Sources */,
 				892C0E311B6648F400CD52AA /* ViewController.swift in Sources */,
+				892C0E511B6658E100CD52AA /* Person.swift in Sources */,
 				892C0E2F1B6648F400CD52AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				892C0E4A1B6648F400CD52AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		892C0E4B1B6648F400CD52AA /* Build configuration list for PBXNativeTarget "Project10Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				892C0E4D1B6648F400CD52AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
