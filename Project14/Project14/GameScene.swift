@@ -70,7 +70,6 @@ class GameScene: SKScene {
                 if !whackSlot.visible { continue }
                 if whackSlot.isHit { continue }
                 
-                whackSlot.charNode.xScale = 0.85
                 whackSlot.charNode.yScale = 0.85
                 
                 whackSlot.hit()
