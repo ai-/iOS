@@ -14,6 +14,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var score: Int = 0 {
         didSet {
+            if (score == 5) {
+                removeAllChildren()
+                removeAllActions()
+                self.scene?.view?.presentScene(GameScene(size: self.size))
+            }
             scoreLabel.text = "Score: \(score)"
         }
     }
@@ -50,6 +55,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         makeBouncerAt(CGPoint(x: 512, y: 0))
         makeBouncerAt(CGPoint(x: 768, y: 0))
         makeBouncerAt(CGPoint(x: 1024, y: 0))
+        
+        for index in 1...10 {
+        let size = CGSize(width: RandomInt(min: 128, max: 256), height: 16)
+        let box = SKSpriteNode(color: RandomColor(), size: size)
+        box.zRotation = RandomCGFloat(min: -1, max: 1)
+        box.position = CGPoint(x: RandomCGFloat(min: 64, max: 980), y: RandomCGFloat(min: 256, max: 640))
+        
+        box.physicsBody = SKPhysicsBody(rectangleOfSize: box.size)
+        box.physicsBody!.dynamic = false
+        
+        addChild(box)
+            }
         scoreLabel = SKLabelNode(fontNamed: "Chalkduster")
         scoreLabel.text = "Score: 0"
         scoreLabel.horizontalAlignmentMode = .Right
@@ -93,7 +110,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
                     ball.physicsBody!.contactTestBitMask = ball.physicsBody!.collisionBitMask
                     ball.physicsBody!.restitution = 0.7
-                    ball.position = location
+                    ball.position = CGPoint(x: location.x, y: 768)
                     ball.name = "ball"
                     addChild(ball)
                 }
