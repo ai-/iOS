@@ -6,7 +6,7 @@ This is where I will post my iOS work as a part of my playing with it and learni
 
 Project #17 - Game: Boss Ninja Slice
 
-![project17](/Project17/Project17/Content/screen.png)
+<img src="/Project17/Project17/Content/screen.png" align="middle"> 
 
 
 Project #11 - Game: Pachinko
@@ -21,4 +21,4 @@ Project #14 - Game: Whack-a-Penguin
 
 Project #5 - Game: Word Scramble
 
-<img src="/Project5/Project5/screen1.png" width="300"> <img src="/Project5/Project5/screen2.png" width="300"> 
+<img src="/Project5/Project5/screen1.png" width="320"> <img src="/Project5/Project5/screen2.png" width="320"> 
