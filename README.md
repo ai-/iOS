@@ -6,7 +6,8 @@ This is where I will post my iOS work as a part of my playing with it and learni
 
 Project #17 - Game: Boss Ninja Slice
 
-<img src="/Project17/Project17/Content/screen.png" align="middle"> 
+![project17](/Project17/Project17/Content/screen.png)
+
 
 
 Project #11 - Game: Pachinko
