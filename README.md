@@ -21,6 +21,4 @@ Project #14 - Game: Whack-a-Penguin
 
 Project #5 - Game: Word Scramble
 
-![project5](/Project5/Project5/screen1.png) ![project5](/Project5/Project5/screen2.png)
-
-<img src="/Project5/Project5/screen1.png" width="48">
+<img src="/Project5/Project5/screen1.png" width="480"> <img src="/Project5/Project5/screen2.png" width="480"> 
