@@ -17,3 +17,8 @@ Project #11 - Game: Pachinko
 Project #14 - Game: Whack-a-Penguin
 
 ![project14](/Project14/Project14/Content/screen.png)
+
+
+Project #17 - Game: Boss Ninja Slice
+
+![project17](/Project17/Project17/Content/screen.png)
